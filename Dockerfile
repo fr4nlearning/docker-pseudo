@@ -23,6 +23,7 @@ ENV PATH="$PATH:/opt/spark/bin:/opt/spark/sbin:/opt/livy/bin" SPARK_HOME="/opt/s
 EXPOSE 8998
 EXPOSE 7077
 EXPOSE 8080
+EXPOSE 8081
 EXPOSE 22
 
 COPY ej.sh .
